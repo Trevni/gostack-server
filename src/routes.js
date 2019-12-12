@@ -17,7 +17,7 @@ const routes = new Router();
 const upload = multer(multerConfig);
 
 routes.get('/ale', (req, res) => res.send('<h1>Ale viadao</h1>'));
-routes.get('/gabrial', (req, res) => res.send('<h1>Gabriel cocozão</h1>'));
+routes.get('/gabriel', (req, res) => res.send('<h1>Gabriel cocozão</h1>'));
 routes.get('/lari', (req, res) => res.send('<h1>Lari boboca</h1>'));
 
 routes.post('/users', UserController.store);
