@@ -1,3 +1,5 @@
 node_modules
 tmp/uploads/*
+package-lock.json
+dist
 .env
