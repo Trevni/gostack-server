@@ -16,7 +16,7 @@ import authMiddleware from './app/middlewares/auth';
 const routes = new Router();
 const upload = multer(multerConfig);
 
-routes.get('/', (req, res) => res.send('ok'));
+routes.get('/', (req, res) => res.send('Ale viadao'));
 
 routes.post('/users', UserController.store);
 routes.post('/sessions', SessionController.store);
